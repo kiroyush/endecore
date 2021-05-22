@@ -49,7 +49,7 @@ TOOLS:
  
  ## Contributors:
 
-Team Name: YOROZUYA
+Team Name: VIRTUAL VELOCITY
 
 * [AYUSH KUMAR](https://github.com/kiroyush)
 * [VISHWAJEET KUMAR](https://github.com/vishwa511)
