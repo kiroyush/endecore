@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>En'Decore</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="about.css">
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="magnify">
+        <h1 onclick="closemagnify()"><i class="fas fa-times"></i></h1>
+        <div id="img_here"></div>
+   
+    </div>
+    <header id="header" class="animated slideInDown" style="animation-delay:1.8s;">
+        <table>
+            <tr>
+                <td id="logo"><a href="index.html"><img src="images/gif.gif" style="border-radius: 80px" alt="" srcset=""></a></td>
+                <!-- <td id="logo"><a href="index.html">En'Decore</a></td> -->
+                <td id="navigation">
+                    <a href="#work">work</a>
+                    <a href="#bio">about</a>
+                    <a href="blogs.html">blog</a>
+                  
+                </td>
+            </tr>
+        </table>
+    </header>
+    <table id="top_part">
+        <tr>
+            <td id="about" class="animated slideInLeft" style="animation-delay:2s;">
+                <h1>We want to help, put you in contact with the best matching interior designer, who can turn your vision into reality</h1>
+               
+                <table>
+                    <tr>
+                        <td class="animated zoomIn" style="animation-delay:2.2s;"><a class="social"><i class="fab fa-facebook"></i></a></td>
+                        <td class="animated zoomIn" style="animation-delay:2.4s;"><a class="social"><i class="fab fa-twitter"></i></a></td>
+                        <td class="animated zoomIn" style="animation-delay:2.6s;"><a class="social"><i class="fab fa-instagram"></i></a></td>
+                        <td class="animated zoomIn" style="animation-delay:2.8s;"><a class="social"><i class="fab fa-dribbble"></i></a></td>
+                        <td class="animated zoomIn" style="animation-delay:3.0s;"><a class="social"><i class="fab fa-medium"></i></a></td>
+                    </tr>
+                </table>
+            </td>
+            <td id="rightImage" class="animated jackInTheBox" style="animation-delay:2.2s;"></td>
+        </tr>
+    </table>
+    <div id="work">
+        <h1>Work</h1>
+        <div id="photos">
+            <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1549488344-cbb6c34cf08b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGZ1cm5pdHVyZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+            <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1551216223-37c8d1dbec5c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fGZ1cm5pdHVyZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+            <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1606984430952-edde87bc4c17?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTc4fHxmdXJuaXR1cmV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+            <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1591944173662-85fbc5a495a1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzR8fGZ1cm5pdHVyZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+            <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1612731397462-d6c4f17cbb3e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODR8fGZ1cm5pdHVyZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+            <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1601617956235-c97e358d054f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTExfHxmdXJuaXR1cmV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+            <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1547043736-b2247cb34b01?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTI3fHxmdXJuaXR1cmV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+            <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1616627988170-8e7185217770?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTI1fHxmdXJuaXR1cmV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+            
+             <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1559954974-21a3fe081782?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTQ0fHxmdXJuaXR1cmV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+            
+            
+            
+        </div>
+    </div>
+    <div id="bio">
+        <h1>About</h1>
+        <p>
+            
+            
+            They say home is where the heart is.Taking this further, we say the heart is home wherein all your furniture is made to cherish. If you thought that this is another story of geeky boys experimenting in a chemical lab, who had this serendipitous accident and got superpowers, you are absolutely right. Well, maybe not exactly that, but close enough.EN' DECORE is established to create a space where modern and vintage furniture meets functionality and exceptional design aesthetics. EN' DECORE is an affable name that evolved due to the meticulous effort developed by a visionary approach in extending the possibilities of manufacturing a vibrant and cozy home for you. We have been adding value to the business we are engaged in; through our sheer business acumen, penchant towards innovation & technology, versatility to upgrade ourselves, and above all - our stringent commitment to deliver only the best.
+            
+            
+            .
+        </p>
+        To become an indisputable name in offering quality, reliable products that match the global standards and strive towards enhancing the credentials with a visionary approach to deliver products par excellence EN' DECORE offers an option of customization (you can customize on your own or take the recommendation of our interior designers). 
+        
+        
+        .
+        <p>
+            <p>
+        To promote a constant and continuous effort in understanding the market requirements through a regular watch on the burgeoning demands, thereby providing a wide range of products that speak volumes about engineering excellence and elegance. EN' DECORE offers you a wide range of products from modern to vintage styles adding aesthetics to your home. 
+                
+                
+            .    
+        </p>
+        <p>
+        We focus on research and development aligned with the addition of innovatively designed new products. We are in a continuous process of designing and manufacturing a wide range of modern furniture that stands in line with ever-evolving trends and needs. With an extensive array of new products, we are striving to explore new horizons. We came up with an AR app for this purpose.
+            
+            
+        .
+        </p>
+        <p>
+        
+        Augmented Reality is all about overlaying virtual animated objects onto real-world surroundings. Users with the help of mobile devices can experience realistic visualization anytime and anywhere. The AR applications can help users virtually try on furniture to their smartphone with personalized instructions. AR can help to improve the retention rate of users by superimposing products with real-life environments. Help to reduce pre-purchase indecision while cutting the rate of product return post-purchase. AR also enables to easily personalize the product offering tailored promotions based on personal preferences.
+            
+          
+            .
+        </p>
+        <p>
+        Our architects and designers constantly and carefully monitor the environment, they accept and develop changes, research fashion and architectural, as well as sociological, changes and transform them into a unique design. We have collaborations with domestic furniture shops to enable the user to get the best product. We have also interior designers with us to help the clients to get the best design of their place. 
+            
+            
+        .
+        </p>
+        <p>
+        
+        Understanding the environmental conditions of our surroundings and maintaining sustainable growth we have undertaken various steps that include installation of nonpolluting units, checking off the filter levels of the emission, proper management of power, protection of the labor rights and work towards their well-being. We are fuelled by the passion for perfection in everything we do. Our products make a significant call on their reliability across different places. The versatility that we keep in delivering our products in terms of colors and designs to the discerning customers helped us to carve a niche in the respective sector within a short period.
+            
+           
+            .
+        </p>
+        <p>
+        We foster the highest quality standards and the most appropriate technologies in all of our endeavors. We have taken stringent measures to ensure the quality of our products through the induction of state-of-the-art technology that defines our infrastructure.
+            
+           
+            .
+        
+        </p>
+       
+            
+    </div>
+  <!-- Footer -->
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col-1">
+          <h3>Download Our App</h3>
+          <p>
+            Download App for Android <br />
+            and ios mobile phone
+          </p>
+          <div class="app-logo">
+           <a href="#"><img src="images/play-store.png" alt="" /></a>
+           <a href="https://www.youtube.com/channel/UCQIQVZ-VGaDHuoiu4Spq7Kg/playlists"><img src="images/youtube.png" alt="" /></a>
+            <img src="images/app-store.png" alt="" />
+          </div>
+        </div>
+        <div class="footer-col-2">
+          
+          <img style="border-radius: 80px;" src="images/gif.gif" alt="" />
+          
+        </div>
+        <div class="footer-col-3">
+          <h3>Useful Links</h3>
+          <ul>
+            <li>Coupons</li>
+            <li>Blog Post</li>
+            <li>Return Policy</li>
+            <li>Join Affiliate</li>
+          </ul>
+        </div>
+
+        <div class="footer-col-4">
+          <h3>Follow us</h3>
+          <ul>
+            <li>Facebook</li>
+            <li>Twitter</li>
+            <li>Instagram</li>
+            <li>YouTube</li>
+          </ul>
+        </div>
+      </div>
+      <hr />
+      <p class="copyright">Copyright 2020 - En'Decor</p>
+    </div>
+  </div>
+    <script src="about.js" type="text/javascript"></script>
+     <!-- JS for Toggle menu -->
+    <script>
+      var MenuItems = document.getElementById("MenuItems");
+
+      MenuItems.style.maxHeight = "0px";
+
+      function menutoggle() {
+        if (MenuItems.style.maxHeight == "0px") {
+          MenuItems.style.maxHeight = "200px";
+        } else {
+          MenuItems.style.maxHeight = "0px";
+        }
+      }
+    </script>
+</body>
+</html>
