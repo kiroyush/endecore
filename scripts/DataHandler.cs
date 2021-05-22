@@ -60,6 +60,7 @@ public class DataHandler : MonoBehaviour
     {
         return furniture;
     }
+    //responsible for getting the assests from the cloud
     public async Task Get(String label)
     {
         var locations = await Addressables.LoadResourceLocationsAsync(label).Task;
