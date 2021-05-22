@@ -9,12 +9,13 @@ public class InputManager : ARBaseGestureInteractable
 {
     //[SerializeField] private GameObject arObj;
     [SerializeField] private Camera arCam;
-    [SerializeField] private ARRaycastManager _raycastManager;
+    [SerializeField] private ARRaycastManager _raycastManager;//helps to identify the object by throwing rays
     [SerializeField] private GameObject crosshair;
-    private List<ARRaycastHit> _hits = new List<ARRaycastHit>();
+    private List<ARRaycastHit> _hits = new List<ARRaycastHit>();//stores the hit info by the raycast manager
 
     private Touch touch;
-    private Pose pose;
+    private Pose pose;// gives the position and rotation of the object being hit by the rays
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -48,6 +49,7 @@ public class InputManager : ARBaseGestureInteractable
     }
 
     // Update is called once per frame
+    // this checks wether or not there has been any kind of input from the user
     void FixedUpdate()
     {
         CrosshairCalculations();
