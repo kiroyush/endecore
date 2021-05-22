@@ -25,8 +25,8 @@ We can increase the peculiarity, where a user can customize his/her furniture fr
   
 ## Table of Contents:
 
-1.En'Decore WEBSITE.
-2.En'Decore APP.
+1) En'Decore WEBSITE.
+2) En'Decore APP.
 
 ## Technology Stack:
 
