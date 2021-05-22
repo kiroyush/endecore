@@ -39,7 +39,7 @@ public class ButtonManager : MonoBehaviour
     {
         if (UIManager.Instance.OnEntered(gameObject))
         {
-            transform.DOScale(Vector3.one * 2, 0.3f);
+            transform.DOScale(Vector3.one * 2, 0.3f);//(scaling factor,time taken)
             //transform.localScale = Vector3.one * 2;
         } 
         else
