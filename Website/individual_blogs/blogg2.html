@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>En'Decore|blogs</title>
+    <link rel="stylesheet" href="blogg1.css">
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&family=Quicksand:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="logo">
+          <a href="index.html">
+            <img style="border-radius: 80px;" src="../images/gif.gif" alt="" width="150px" ></a>
+        </div>
+        <nav>
+          <ul id="MenuItems">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../products.html">Products</a></li>
+            <li><a href="../about.html">About</a></li>
+            <li><a href="../contactus.html">Contact</a></li>
+            <li><a href="../account.html">Account</a></li>
+            <li><a href="../blogs.html">Blogs</a></li>
+            <li><a href="#">Liaison</a></li>
+            <li><a href="../faq2.html">FAQ's</a></li>
+            <!-- TODo: 22:20 -->
+          </ul>
+        </nav>
+     
+        <img
+          src="../images/menu.png"
+          alt=""
+          class="menu-icon"
+          onclick="menutoggle()"
+        />
+      </div>
+
+    <div class="section1">
+        <br>
+        <h2 style="text-transform: uppercase;">Heads-Up: The Furniture You Tossed to the Curb Might Just Become a Work of Art</h2>
+        <p class="name">~Anshika Pattnaik</p> <br><br>
+        <p class="review">Gone are the days of seasonal wardrobes. Fashion is currently in the spotlight and as of yet, the conversation has largely remained unspoken when it comes to the interiors industry. Yet, we are faced with the same problem. When it comes to ethical shopping, things do not start and end on the high street.
+            Much like with fashion, fast furniture refers to inexpensive, trendy furniture that travels rapidly from the pages of glossy magazines to online shops and bigger homeware high street brands.
+           You may be familiar with the term “fast fashion,” but have you ever considered the impact of “fast furniture”? In a new public art installation, “Take What You Want,” New York artists Matt Starr and Ellie Sachs are bringing awareness to the way people consume the things around their homes—from mattresses to sofas, to table lamps and more—and how they untimely dispose of them. That old chair you toss on the curb for garbage collection very well might become a part of their ever-changing installation, and for good reason.
+           “Ultimately, we wanted to say something about our obsession with material goods and our hazardous relationship with ‘stuff,’” Sachs says, “As a society, we’re buying and throwing things out at an alarming rate, and it’s taking a huge toll on the environment. Furniture is no different and is a massive contributor as a category.”
+           Because we don’t buy furniture daily like clothes, we don’t realize how much it’s affecting the environment. The environmental impact of buying fast furniture is huge. Firstly, the constant fight to keep up with trends and cut costs means that non-recyclable materials are often used, and cheap, harmful chemicals and dyes are applied which pollute clean water. When it comes to fabrics the story is much the same. Polyester, for example, originates from fossil fuels and when washed sheds microfibres that add to rising levels of plastic in the ocean. Cotton is also often produced in a way that involves pesticides, toxic dyes, and a large number of natural resources.
+           Furniture is the least-recycled household item and furniture is the second largest portion of urban waste. It’s made of cheap materials that aren’t meant to last, and its limited life span means increased waste in landfills.
+           The speed of demand needed to achieve cheap prices and on-trend furniture also comes with problems. Namely that products are manufactured overseas and shipped back to the UK. Moving furniture across hundreds of miles, from country to country, makes the globe’s carbon footprint bigger leading to higher CO2 pollution.
+                              
+                              One daffodil is worth a thousand pleasures, then that one is too few.
+           
+           
+</p>
+    </div>
+    <br><br><br>
+
+<!-- footer  -->
+
+<div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col-1">
+          <h3>Download Our App</h3>
+          <p>
+            Download App for Android <br />
+            and ios mobile phone
+          </p>
+          <div class="app-logo">
+           <a href="#"><img src="../images/play-store.png" alt="" /></a>
+           <a href="https://www.youtube.com/channel/UCQIQVZ-VGaDHuoiu4Spq7Kg/playlists"><img src="../images/youtube.png" alt="" /></a>
+            <img src="../images/app-store.png" alt="" />
+          </div>
+        </div>
+        <div class="footer-col-2">
+          
+          <img style="border-radius: 80px;" src="../images/gif.gif" alt="" />
+          
+        </div>
+        <div class="footer-col-3">
+          <h3>Useful Links</h3>
+          <ul>
+            <li>Coupons</li>
+            <li>Blog Post</li>
+            <li>Return Policy</li>
+            <li>Join Affiliate</li>
+          </ul>
+        </div>
+
+        <div class="footer-col-4">
+          <h3>Follow us</h3>
+          <ul>
+            <li>Facebook</li>
+            <li>Twitter</li>
+            <li>Instagram</li>
+            <li>YouTube</li>
+          </ul>
+        </div>
+      </div>
+      <hr />
+      <p class="copyright">Copyright 2020 - En'Decor</p>
+    </div>
+  </div>
+
+    <!-- JS for Toggle menu -->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+  
+        MenuItems.style.maxHeight = "0px";
+  
+        function menutoggle() {
+          if (MenuItems.style.maxHeight == "0px") {
+            MenuItems.style.maxHeight = "200px";
+          } else {
+            MenuItems.style.maxHeight = "0px";
+          }
+        }
+      </script>
+
+</body>
+</html>

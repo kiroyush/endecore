@@ -1,0 +1,32 @@
+*{
+    margin: opx;
+    padding: 0px;
+
+}
+
+body{
+    background-image: radial-gradient(#fff, #ffd6d6);
+    /* background: url(https://media.istockphoto.com/photos/interior-with-armchair-and-coffee-table-3d-rendering-picture-id1158575634?k=6&m=1158575634&s=612x612&w=0&h=Fkh9dLz9W8TKkKwJstagndsCu92badT0y6m-w8iqB-g=)no-repeat;
+    background-size: cover; */
+}
+.section1{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 80%;
+    flex-direction: column;
+}
+.section1 h2{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2em;
+}
+.name{
+    margin-left:30%;
+    font-size: 19px;
+}
+.review{
+    font-size: 25px;
+    color: black;
+    text-align: justify;
+    font-family: 'Playfair Display', serif;
+}

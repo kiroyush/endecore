@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>En'Decore|blogs</title>
+    <link rel="stylesheet" href="blogg1.css">
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&family=Quicksand:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="logo">
+          <a href="index.html">
+            <img style="border-radius: 80px;" src="../images/gif.gif" alt="" width="150px" ></a>
+        </div>
+        <nav>
+          <ul id="MenuItems">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../products.html">Products</a></li>
+            <li><a href="../about.html">About</a></li>
+            <li><a href="../contactus.html">Contact</a></li>
+            <li><a href="../account.html">Account</a></li>
+            <li><a href="../blogs.html">Blogs</a></li>
+            <li><a href="#">Liaison</a></li>
+            <li><a href="../faq2.html">FAQ's</a></li>
+            <!-- TODo: 22:20 -->
+          </ul>
+        </nav>
+     
+        <img
+          src="../images/menu.png"
+          alt=""
+          class="menu-icon"
+          onclick="menutoggle()"
+        />
+      </div>
+
+    <div class="section1">
+        <br>
+        <h2 style="text-transform: uppercase;">HOW TO FRESHEN UP YOUR HOME AND MAKE IT LOOK LIKE "YOU"</h2>
+        <p class="name">~DEVANSH SETHI</p> <br><br>
+        <p class="review">1. Create a clean slate.  Clear out anything that you don’t love, especially eyesores. You can’t create something you’ll love in the end if you don’t like the foundation you’re building on. Take a critical look at everything: upholstery, rugs, window treatments, lamps, accessories, etc. Getting the bones & building blocks right is key. <br>
+            2. Determine both the mood and style you want your home to have.  Write it down or put it into your phone so it will be at the forefront of your mind when making decisions regarding your home. Mood relates to the feelings your home will bring about in you & others who visit and how the home itself feels. (I.e., do you want a “cheerful” home or do you want a “quiet, calm” home?) Style is more concrete. (Examples would be “rustic” or “Mid-century.” or even “rustic Mid-century.” Combinations are great because the more specific you can get, the stronger your vision will be.) Both mood and style are equally important. Make sure every purchase you make and every decision you make it with style & mood in mind. <br>
+            3. Make a list of everything you need to do and buy for your space. (Each room should have its list. Keep the rooms separate so that the process is more manageable. <br>
+            4. Attack Your “To Do” list.  Go after the items one by one and don’t stop until you’re done. Remember to think about style & mood with every decision. If you find things that aren’t on your list but you love them and feel they’re “you,” go for them because it’s the personal, the quirky, and the unexpected that makes a house feel like a home. <br>
+            5.  Infuse charm.  A home is about more than just a bunch of well-thought-out decisions and things… it’s about the atmosphere, which touches all of our senses. Make your home smell good, (candles, baking cookies, open windows…) play music when you can prepare great food, bring in fresh greens and flowers whenever possible, and make sure that it’s comfortable and cosy… lights on dimmers, candles when appropriate and things right where they need to be. All of these little things that tickle our senses bring us unexpected pleasure and a bit of delight. Have fun with it and pay attention to how all of these little details affect people’s moods and find creative ways to figure out how charming you can truly make your home. 
+            These five steps are pretty much an abbreviated version of what we do at EN' DECORE every day. It’s a pretty tried-and-true method that works for both large & small-scale projects.
+            
+             
+            
+            
+</p>
+    </div>
+    <br><br><br>
+
+<!-- footer  -->
+
+<div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col-1">
+          <h3>Download Our App</h3>
+          <p>
+            Download App for Android <br />
+            and ios mobile phone
+          </p>
+          <div class="app-logo">
+           <a href="#"><img src="../images/play-store.png" alt="" /></a>
+           <a href="https://www.youtube.com/channel/UCQIQVZ-VGaDHuoiu4Spq7Kg/playlists"><img src="../images/youtube.png" alt="" /></a>
+            <img src="../images/app-store.png" alt="" />
+          </div>
+        </div>
+        <div class="footer-col-2">
+          
+          <img style="border-radius: 80px;" src="../images/gif.gif" alt="" />
+          
+        </div>
+        <div class="footer-col-3">
+          <h3>Useful Links</h3>
+          <ul>
+            <li>Coupons</li>
+            <li>Blog Post</li>
+            <li>Return Policy</li>
+            <li>Join Affiliate</li>
+          </ul>
+        </div>
+
+        <div class="footer-col-4">
+          <h3>Follow us</h3>
+          <ul>
+            <li>Facebook</li>
+            <li>Twitter</li>
+            <li>Instagram</li>
+            <li>YouTube</li>
+          </ul>
+        </div>
+      </div>
+      <hr />
+      <p class="copyright">Copyright 2020 - En'Decor</p>
+    </div>
+  </div>
+
+    <!-- JS for Toggle menu -->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+  
+        MenuItems.style.maxHeight = "0px";
+  
+        function menutoggle() {
+          if (MenuItems.style.maxHeight == "0px") {
+            MenuItems.style.maxHeight = "200px";
+          } else {
+            MenuItems.style.maxHeight = "0px";
+          }
+        }
+      </script>
+
+</body>
+</html>
