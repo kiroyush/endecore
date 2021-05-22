@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Models
+  m_EditorClassIdentifier: 
+  m_GroupName: Models
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 0770e24b9992c6c4995c03bbed5b0110
+  m_SerializeEntries:
+  - m_GUID: ee5d8fa4b496c9f48a76cb8a5ca67069
+    m_Address: Assets/Addressables/Items/chair.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Furnitures
+  - m_GUID: 47a375c2150032d4ba027646db44c318
+    m_Address: Assets/Addressables/Items/sofa.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Furnitures
+  - m_GUID: eb1b77b557b012c4ebdc1a4d9e7dfb66
+    m_Address: Assets/Addressables/Items/table.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Furnitures
+  - m_GUID: 3f17d0235287d6a45b3326273fca2eff
+    m_Address: Assets/Addressables/Items/Item1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Furnitures
+  - m_GUID: 6123d71a26b9eb7429692d65d13e23bf
+    m_Address: Assets/Addressables/Items/Item1 2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Furnitures
+  - m_GUID: 0cdca1b79a3a72e4ea4990c0c52e4c21
+    m_Address: Assets/Addressables/Items/Item1 3.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Furnitures
+  - m_GUID: 3447c92135c953d4e8bc41fe663b9978
+    m_Address: Assets/Addressables/Items/Item1 5.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Furnitures
+  - m_GUID: 9961efd1016623148aef9c3ce9f55b6d
+    m_Address: Assets/Addressables/Items/Item1 8.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Furnitures
+  - m_GUID: 16f6dbc382cc7b2428dba2aa0c575a2b
+    m_Address: Assets/Addressables/Items/hooo.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Furnitures
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: f106fbd104a8a124a93957e91ec031b6, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: f255c091bdf34624f929352d3f55cf63, type: 2}
+    - {fileID: 11400000, guid: f84de8c18a721304d8e8d3d4759a4899, type: 2}
