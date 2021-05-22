@@ -20,6 +20,9 @@ We can increase the peculiarity, where a user can customize his/her furniture fr
 
   <a href="https://drive.google.com/file/d/1SLA3W65JI2hmnaG7rh0YzHbcaN5Fvaw4/view?usp=sharing"> https://drive.google.com/file/d/1SLA3W65JI2hmnaG7rh0YzHbcaN5Fvaw4/view?usp=sharing </a>
   
+## Presentation Link:
+  <a href="https://drive.google.com/file/d/1SLA3W65JI2hmnaG7rh0YzHbcaN5Fvaw4/view?usp=sharing"> https://drive.google.com/file/d/1SLA3W65JI2hmnaG7rh0YzHbcaN5Fvaw4/view?usp=sharing </a>  
+  
 ## Table of Contents:
 
 1.En'Decore WEBSITE.
