@@ -46,34 +46,6 @@ TOOLS:
  4) BRACKETS TEXT EDITOR
  5) VECTARY
  
- ## DEBUGG:
- 
-   </p>
-
-<img src="https://drive.google.com/file/d/18iusYHb4-HvBeDWW2h6RGEXRTKYnJIxe/view?usp=sharing"/>
- </p>
- 
- 
-   </p>
-
-<img src="https://drive.google.com/file/d/1SvL3bq_ytw60as27Mxzmoh43czk1LLVF/view?usp=sharing"/>
- </p>
- 
-   </p>
-
-<img src="https://drive.google.com/file/d/10GfjSYoFkl6-3jz2s0IMbuuZ8lC2IDh6/view?usp=sharing"/>
- </p>
- 
-   </p>
-
-<img src="https://drive.google.com/file/d/1sxCoonkDW2u8bEaf1ZidTOt0Iw8cl_jP/view?usp=sharing"/>
- </p>
- </p>
-
-<img src="https://drive.google.com/file/d/1BEkPcUrJoRS7BdVRefcjd8ljHB_AkcCO/view?usp=sharing"/>
- </p>
- 
- 
  
  
  ## Contributors:
