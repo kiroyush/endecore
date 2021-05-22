@@ -39,20 +39,13 @@ public class DataHandler : MonoBehaviour
         CreateButtons();
         
     }
-   /* void LoadItems()
-    {
-        var items_obj = Resources.LoadAll("Items", typeof(Item));
-        foreach (var item in items_obj)
-        {
-            items.Add(item as Item);
-        }
-    }*/
+    
     //responsible for the creation of the buttons based on the items that we have
+    //each button must have a unique id and a button, so to determine which particular object is currently selected.
     void CreateButtons()
     {
         foreach ( Item  i in items)
         {
-            //each button must have a unique id , so to determine which particular object is currently selected.
             ButtonManager b = Instantiate(buttonPrefab, buttonContainer.transform);
             b.ItemId = current_id;
             b.ButtonTexture = i.itemImage;
