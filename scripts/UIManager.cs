@@ -10,7 +10,7 @@ public class UIManager : MonoBehaviour
     private PointerEventData pData;
     private EventSystem eventSystem;
 
-    public Transform selectionPoint;
+    public Transform selectionPoint; // the centre of the contents section 
     public static UIManager instance;
     public static UIManager Instance
     {
@@ -26,18 +26,18 @@ public class UIManager : MonoBehaviour
 
     }
     // Start is called before the first frame update
+    // throws a ray , to find out wether or not a button is on the selection point or not
     void Start()
     {
         _raycaster = GetComponent<GraphicRaycaster>();
         eventSystem = GetComponent<EventSystem>();
         pData = new PointerEventData(eventSystem);
-
         pData.position = selectionPoint.position;
     }
 
     // Update is called once per frame
  
-
+    // finds out if the button is selected or not
     public bool OnEntered(GameObject button)
     {
         List<RaycastResult> results = new List<RaycastResult>();
