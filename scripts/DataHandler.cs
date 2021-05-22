@@ -8,7 +8,7 @@ using UnityEngine.AddressableAssets;
 public class DataHandler : MonoBehaviour
 {
     private GameObject furniture;
-    [SerializeField] private ButtonManager buttonPrefab;//hold all the info about the auto loaded buttons
+    [SerializeField] private ButtonManager buttonPrefab;//hold all the info about the auto loaded from cloud buttons
     [SerializeField] private GameObject buttonContainer;// actual holder of the buttons
     [SerializeField] private List<Item> items;
 
