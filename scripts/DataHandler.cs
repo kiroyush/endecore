@@ -8,8 +8,8 @@ using UnityEngine.AddressableAssets;
 public class DataHandler : MonoBehaviour
 {
     private GameObject furniture;
-    [SerializeField] private ButtonManager buttonPrefab;
-    [SerializeField] private GameObject buttonContainer;
+    [SerializeField] private ButtonManager buttonPrefab;//hold all the info about the auto loaded buttons
+    [SerializeField] private GameObject buttonContainer;// actual holder of the buttons
     [SerializeField] private List<Item> items;
 
     [SerializeField] private String label;
@@ -47,6 +47,7 @@ public class DataHandler : MonoBehaviour
             items.Add(item as Item);
         }
     }*/
+    //responsible for the creation of the buttons based on the items that we have
     void CreateButtons()
     {
         foreach ( Item  i in items)
