@@ -3,7 +3,7 @@
   
   </p>
 
-<img src="https://images.unsplash.com/photo-1584931423298-c576fda54bd2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80"/>
+<img src="https://images.unsplash.com/photo-1554995207-c18c203602cb?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGRlc2lnbnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"/>
  </p>
 ## Introduction:
 
@@ -26,10 +26,18 @@ We can increase the peculiarity, where a user can customize his/her furniture fr
 
 ## Technology Stack:
 
-LANGUAGES:                                         TOOLS:
-  1) HTML                                             1)UNITY ENGINE.
-  2) CSS                                              2)VISUAL STUDIO.  
-  3) Java script                                      3)VISUAL STUDIO CODE.
-  4) SCSS                                             4)BRACKETS TEXT EDITOR.
-  5) C#                                               5)VECTARY.
+LANGUAGES:                                        
 
+  1) HTML                                            
+  2) CSS                                              
+  3) Java script                                      
+  4) SCSS                                             
+  5) C#                                               
+
+TOOLS:
+
+ 1)UNITY ENGINE.
+ 2)VISUAL STUDIO. 
+ 3)VISUAL STUDIO CODE.
+ 4)BRACKETS TEXT EDITOR.
+ 5)VECTARY.
