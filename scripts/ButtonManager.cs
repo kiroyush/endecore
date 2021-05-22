@@ -48,6 +48,7 @@ public class ButtonManager : MonoBehaviour
             //transform.localScale = Vector3.one;
         }
     }
+    //whenever we select an object, the unique id id passed to the data handler which will decide the particular object
     void SelectObject()
     {
         DataHandler.Instance.SetFurniture(_itemId);
