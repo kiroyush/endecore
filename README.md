@@ -24,7 +24,7 @@ We can increase the peculiarity, where a user can customize his/her furniture fr
   <a href="https://drive.google.com/file/d/1iKuFWwlIQBOR5jKRCedfT5lciXhjs21w/view?usp=sharing"> https://drive.google.com/file/d/1iKuFWwlIQBOR5jKRCedfT5lciXhjs21w/view?usp=sharing </a>
   
 ## Presentation Link:
-  <a href="https://drive.google.com/file/d/1EO9S-zb46y9Fq5o77u6L5duQlLINJp4d/view?usp=sharing"> https://drive.google.com/file/d/1EO9S-zb46y9Fq5o77u6L5duQlLINJp4d/view?usp=sharing </a>  
+  <a href="https://drive.google.com/file/d/1AvfvFWBICYObKirDIIF9duhKQyjoPlhB/view?usp=sharing"> https://drive.google.com/file/d/1AvfvFWBICYObKirDIIF9duhKQyjoPlhB/view?usp=sharing </a>  
   
 ## Table of Contents:
 
